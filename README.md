@@ -17,3 +17,17 @@ npm install sweetalert2
 script src="sweetalert2.min.js"></script>
 <link rel="stylesheet" href="sweetalert2.min.css">
 ```
+
+## example:
+```html
+<button class="btn" type="button" id="click">Click me</button>
+```
+```js
+$("#click").on("click", function () {
+  Swal.fire({
+  title: 'Error!',
+  text: 'Do you want to continue',
+  icon: 'error',
+  confirmButtonText: 'Cool'
+  })
+});
