@@ -1,4 +1,4 @@
-# alert-prompt-confirm
+# alert
 
 ### DOWNLOAD & INSTALL
 
